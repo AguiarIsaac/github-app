@@ -1,39 +1,56 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    display:flex;
-    gap:2rem;
-    align-items: center;
-    width: 90%;
-    margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
 `;
 
-export const WrapperImg = styled.img`
-    width: 16rem;
-    height:16rem;
-    border-radius: 50%;
+export const WrapperInfoUser = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 8px;
+  height: 200px;
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: bold;
+  }
 `;
 
-export const WrapperText = styled.div`
-    display:flex;
-    flex-direction: column;
+export const WrapperStatusCount = styled.div`
+  display: flex;
+  align-items: center;
+  div {
+    margin: 8px;
+    text-align: center;
+  }
 `;
 
-export const WrapperTitle = styled.div`
-    display:flex;
-    align-items: center;
-    gap: 1rem;
+export const WrapperUserGeneric = styled.div`
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  h3 {
+    margin-right: 8px;
+  }
+  a {
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+  }
 `;
 
-export const WrapperStatistics = styled.div`
-    display:flex;
-    align-items: center;
-    gap: 1rem;
-`;
-
-export const WrapperStatisticBox = styled.div`
-    display:flex;
-    align-items: center;
-    justyfi-content:center;
-    flex-direction: column;
+export const WrapperImage = styled.img`
+  border-radius: 50%;
+  width: 200px;
+  margin: 8px;
 `;
