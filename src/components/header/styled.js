@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
   justify-content: space-between;
-  padding: 4px;
+  padding: 2rem 0;
   input {
     border: 1px solid #ccc;
     border-radius: 8px;
     width: 100%;
-    height: 44px;
-    padding: 8px;
+    padding: 0.5rem;
     font-weight: 500;
   }
   button {

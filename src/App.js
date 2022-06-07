@@ -1,4 +1,5 @@
 import React from "react";
+import Globalstyle from './global/globalStyle'
 import Layout from "./components/layout";
 import NoSearch from "./components/no-search";
 import Profile from "./components/profile";
@@ -23,6 +24,7 @@ const App = () => {
       ) : (
         <NoSearch />
       )}
+      <Globalstyle/>
     </Layout>
   );
 };
